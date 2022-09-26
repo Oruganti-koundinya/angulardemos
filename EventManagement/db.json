@@ -1,0 +1,64 @@
+{
+  "employees": [
+    {
+      "id": 1,
+      "fname": "Sebastian",
+      "lname": "Eschweiler",
+      "email": "sebastian@codingthesmartway.com"
+    },
+    {
+      "id": 2,
+      "fname": "Steve",
+      "lname": "Palmer",
+      "email": "steve@codingthesmartway.com"
+    },
+    {
+      "id": 3,
+      "fname": "Anna",
+      "lname": "Steel",
+      "email": "asteel@example.com"
+    },
+    {
+      "id": 4,
+      "fname": "Ragnar",
+      "lname": "Lothbrok",
+      "email": "r.lothbrok@vikings.com"
+    },
+    {
+      "id": 5,
+      "fname": "Tony",
+      "lname": "Stark",
+      "email": "tstark@edith.com"
+    },
+    {
+      "id": 6,
+      "fname": "Charlie",
+      "lname": "Chapline",
+      "email": "cc@comedyking.com"
+    },
+    {
+      "id": 7,
+      "fname": "sigmen",
+      "lname": "Fried",
+      "email": "s.fried@hyd.com"
+    },
+    {
+      "id": 8,
+      "fname": "Bhuvaneshwar",
+      "lname": "Kumar",
+      "email": "bhuvi@swingking.com"
+    },
+    {
+      "id": 9,
+      "fname": "Guido Van",
+      "lname": "Rossam",
+      "email": "gvrossam@java.com"
+    },
+    {
+      "id": 10,
+      "fname": "Sundar",
+      "lname": "Pichai",
+      "email": "sundarp@gmail.com"
+    }
+  ]
+}

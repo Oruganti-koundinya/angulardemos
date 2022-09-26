@@ -1,0 +1,23 @@
+body{
+    color: black;
+     background-color: bisque; 
+     background-image: url("https://uvs-it.com/wp-content/uploads/2013/05/homepage-background.jpg");
+     background-position: center;
+     background-repeat: no-repeat; 
+     
+   
+    
+}
+.base1{
+    background-color: white;
+    text-emphasis-color: rgb(96, 177, 38);
+
+    
+}
+.centered {
+    color: black;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }

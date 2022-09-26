@@ -1,0 +1,27 @@
+<div class="container">
+  <div class="row">
+    <div class="col">
+      <ul class="nav nav-tabs">
+        <li
+          role="presentation"
+          class="nav-item"
+          routerLinkActive="active"
+          [routerLinkActiveOptions]="{ exact: true }"
+        >
+          <a class="nav-link" routerLink="/"
+          style="background-color: orange ;color: green;">Home</a>
+        </li>
+        <li role="presentation" class="nav-item" routerLinkActive="active">
+          <a class="nav-link" routerLink="admin"
+          style="background-color: white;">Admin Login</a>
+        </li>
+        <li role="presentation" class="nav-item" routerLinkActive="active"
+             style="background-color: green;">
+          <a class="nav-link" routerLink="changepassword"
+              style="color: orange;">Change Password</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+      <router-outlet></router-outlet>
+    </div>
