@@ -3,20 +3,18 @@ import { Component, OnInit } from '@angular/core';
 @Component({
   selector: 'app-numbers',
   templateUrl: './numbers.component.html',
-  styleUrls: ['./numbers.component.css']
+  styleUrls: ['./numbers.component.css'],
 })
 export class NumbersComponent implements OnInit {
-
   showNumbers = true;
-  numbers = [23,126,143,6,3,9,308,1];
-  boxNumber = 5;
+  numbers = [1, 2, 3, 4, 523, 46, 75, 12, 92, 133];
+  boxNumber = 10;
 
-  constructor() { }
+  constructor() {}
 
-  ngOnInit(): void {
-  }
+  ngOnInit(): void {}
 
-  toggleShow(){
+  toggleShow() {
     this.showNumbers = !this.showNumbers;
   }
 }
