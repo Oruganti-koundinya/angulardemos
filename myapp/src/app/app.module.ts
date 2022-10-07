@@ -24,9 +24,13 @@ import { UserComponent } from './users/user/user.component';
 import { UserviewComponent } from './users/userview/userview.component';
 import { PostsComponent } from './posts/posts.component';
 import { HttpClientModule } from '@angular/common/http';
+import { SignupComponent } from './signup/signup.component';
+import { LoginComponent } from './login/login.component';
 
 const appRoutes: Routes = [
   { path: '', component: HomeComponent },
+  { path: 'signup', component: SignupComponent },
+  { path: 'login', component: LoginComponent},
   { path: 'server', component: ServerComponent },
   { path: 'products', component: ProductsComponent },
   { path: 'numbers', component: NumbersComponent },
@@ -62,6 +66,8 @@ const appRoutes: Routes = [
     UserComponent,
     UserviewComponent,
     PostsComponent,
+    SignupComponent,
+    LoginComponent,
   ],
   imports: [
     BrowserModule,
